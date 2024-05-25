@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "vite",
+    "test": "vite --host 0.0.0.0",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -14,6 +14,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.0"
+    "vite": "^5.2.11"
   }
 }
