@@ -6,10 +6,10 @@
 </template>
 
 <script setup>
-// import { onMounted } from 'vue'
-// onMounted(() => {
-//   setTimeout(() => {
-//     window.location.href = 'https://hautylamp.1688.com'
-//   }, 1000);
-// })
+import { onMounted } from 'vue'
+onMounted(() => {
+  setTimeout(() => {
+    window.location.href = 'https://hautylamp.1688.com'
+  }, 1000)
+})
 </script>
